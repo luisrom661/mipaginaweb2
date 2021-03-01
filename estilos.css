@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century;
+}
+
+body{
+	background-color: #F0E68C;
+	/*display: flex;*/
+	/*min-height: 100px;*/
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	background: #FAF0E6;
+	margin: 0px;
+}
+
+nav ul li{
+	float: left;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	margin: 10px;
+	list-style-type: none;
+}
+
+a{
+	color: black;
+}
+
+nav{
+	background: #FFFACD;
+	height: 50px;
+	border: 1px solid black;
+	padding-left: 150px;
+}
+
+section{
+	text-align: justify;
+}
+
+aside{
+	background: #FAF0E6;
+	float: right;
+	width: 30%;
+	min-height: 400px;
+}
+
+footer{
+	line-height: 30px;
+	background: #FFFACD;
+	text-align: center;
+	color: black;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.art1{
+	margin: 40px;
+}
+
+.art2{
+	margin: 20px;
+	text-align: center;
+}
+
+.art3{
+	margin: 20px;
+}
+
+.art4{
+	margin: 20px;
+	text-align: left;
+}
+
+.textbox{
+	margin: 20px;
+}
+
+.divider{
+	clear: both;
+}
+
+.redes-sociales a{
+	display: inline-flex;
+	color: white;
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	justify-content: center;;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 0 6px;
+	transition: 0.4s;
+}
+
+.redes-sociales a:hover{
+	transform: scale(1.3);
+}
+
+.redes-sociales a.facebook{
+	background-color: #3C70A4;
+}
+
+.redes-sociales a.twitter{
+	background-color: #5BD1D7;
+}
+
+.redes-sociales a.instagram{
+	background-color: #BB7171;
+}
+
+#tablas{
+  font-family: Century;
+  border-collapse: collapse;
+  width: 70%;
+	margin: 20px;
+}
+
+#tablas td, #tablas th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablas tr{
+	background-color: #f2f2f2;
+}
+
+#tablas tr:hover {
+	background-color: #ddd;
+}
+
+#tablas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #DAA520;
+  color: white;
+}
+
+#articles{
+	width: 70%;
+	min-height: 400px;
+	float: left;
+	background: #FFFACD;
+}
+
+#asidetamano{
+	min-height: 400px;
+}
+
+#container{
+	width: 70%;
+	border: 1px solid black;
+	margin: auto;
+}
